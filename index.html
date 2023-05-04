@@ -1,108 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        
-		<title>Danielle Wyenberg</title>
-		<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-
-		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/bootstrap-grid.css">
-		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="css/bootstrap-reboot.css">
-        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-		
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <link rel="stylesheet" href="css/style.css">
-		
-	</head>
-
-	<body>
+<head>
+  <title>Danielle Wyenberg</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
     
-  
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
       
-        		
-
-<div class="page-header">
-    
-    <div class="row justify-content-center">
-    
-	<h1>DANIELLE WYENBERG</h1>
     </div>
-    
-    <div class="row justify-content-center">
-    
-    <h3> Teacher | Engineer | Analyst | Cartographer | Student</h3>
+  </div>
+</nav>
 
-        
-    </div>
-</div> 
-        
-
-		<div class="container">
-            
-            <div class="row">
-				<div class="col-md-4">
-					<div class="thumbnail portfolio-thumbnail">
-						<a href="TheDisappearingPrairie.html">
-							<img src="assets/Prairie_Remnants_Thumbnail.JPG" alt="Remnant_Pic" style="width:300px; height:250px;" />
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="thumbnail portfolio-thumbnail">
-						<a href="https://api.mapbox.com/styles/v1/daniellewyenberg/ckdaughcc1jdv1mp3eedsgmpl.html?fresh=true&title=view&access_token=pk.eyJ1IjoiZGFuaWVsbGV3eWVuYmVyZyIsImEiOiJja2N0ODhjeXQxbW01MnBvYnF2amw3c2lhIn0.W40RbZUlWd-HZzYc68TBgQ">
-							<img src="assets/FantasticMrFoxMap_Thumbnail.jpg" alt="Fantasitc Mr. Fox Theme Map" style="width:300px; height:250px;"/>
-						</a>
-					</div>
-				</div>
-                
-            <div class="row justify-content-end">
-				<div class="col-2">
-					<img src="BIO_PIC.jpg" alt="BIO_PIC" style="width:200px; height:266px;"/>
-                    
-				</div>
-               
-			</div>
-			
-			</div>
-            
-		
-                        
-            <div class="row justify-content-end">
-                
-              <div class="col-2">
-                
-                <bold>Hi, I'm Danielle.</bold> I'm currently pursuing a Master's Degree in GIS and Web Map Programming at the University of Wisconsin-Madison, and this is where you can find examples of my recent work.  I'm also an engineering instructor at Dordt University, a mom to three little ones, a gardener, and a reader.  Find more about me by taking a look at my <a href="Resume.html">resume</a>, or <a href="contact.html">get in touch.</a> <br>
-                         
-                </div>
-                
-            </div>
-            
-            <div class="row justify-content-end">
-                <div class="col-1">
-                <a href="https://www.facebook.com/dani.wyenberg/" class="fa fa-facebook"></a>
-                </div>
-            
-                <div class="col-1">
-                <a href="https://www.instagram.com/dani.wyenberg/" class="fa fa-instagram"></a>    
-                </div>
-            
-            </div>
-            
-		</div>
-        
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Danielle Wyenberg</h1>      
+    <p>Teacher | Engineer | GIS Analyst | Cartographer</p>
+  </div>
+</div>
   
-        
-        
+<div class="container-fluid bg-3 text-center">    
+  
+  <div class="row">
+    <div class="col-sm-3">
+      <p>The Disappearing Prairie</p>
+        <a href="portfolio/LabAssignment1-4_PrairieRemnants_Wyenberg2.png">
+      <img src="assets/Prairie_Remnants_Thumbnail.JPG" class="img-responsive" style="width:100%" alt="Image">
+        </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Garden Planning Web Map</p>
+        <a href="GardenPlanner/index.html">
+       
+      <img src="assets/GardenPlanner.jpg" class="img-responsive" style="width:100%" alt="Image">
+             </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Oak Grove Trail Map</p>
+        <a href="https://codepen.io/DWyenberg/pen/yLEeqXG">
+      <img src="assets/OakGrove.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </a>
+    </div>
+    <div class="col-sm-3">
+      <p>Nitrate Levels Analysis</p>
+        <a href="https://youtu.be/9z4rtHQKmzQ">
+      <img src="assets/777Project1.jpg" class="img-responsive" style="width:100%" alt="Image">
+        </a>
+    </div>
+  </div>
+</div><br>
 
-		<!--put your external script links here-->
-		<script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
-		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
-        
-	</body>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Database Design</p>
+        <a href = "assets/Database_Design.pdf">
+      <img src="assets/Database_Design.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Native Plantings Mapper</p>
+        <a href = "https://youtu.be/lbjPZ1JBoeQ">
+      <img src="assets/NativePlantingsMapper.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Unemployment and Internet Access</p>
+        <a href="575FinalProject_Submitted/index.html">
+      <img src="assets/Unemployment_Internet_Access.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </a>
+    </div>
+    <div class="col-sm-3">
+      <p>Stylized Mapbox</p>
+        <a href="https://api.mapbox.com/styles/v1/daniellewyenberg/ckdaughcc1jdv1mp3eedsgmpl.html?fresh=true&title=view&access_token=pk.eyJ1IjoiZGFuaWVsbGV3eWVuYmVyZyIsImEiOiJja2N0ODhjeXQxbW01MnBvYnF2amw3c2lhIn0.W40RbZUlWd-HZzYc68TBgQ" >
+      <img src="assets/FantasticMrFoxMap.JPG" class="img-responsive" style="width:100%" alt="Image">
+            </a>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p></p>
+</footer>
+
+</body>
 </html>
